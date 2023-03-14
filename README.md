@@ -11,13 +11,13 @@ The route_manager.py program takes user input that specifies a specific quesiton
 The user can also pick whether they want the information displayed in a bar or pie graph.
 
 The input should be formatted as follows...  
-./route_manager.py --AIRLINES="airlines.yaml" --AIRPORTS="airports.yaml" --ROUTES="routes.yaml" --QUESTION="q<x>" --TYPE="type of graph"  
+./route_manager.py --AIRLINES="airlines.yaml" --AIRPORTS="airports.yaml" --ROUTES="routes.yaml" --QUESTION="q[x]" --TYPE="type of graph"  
 The questions can be input as q1, q2, etc.  
 The type of graph can be input as "pie" or "bar"  
   
   
 **OUTPUT:**  
-The output data will be stored in a .csv file called q<x>.csv, where x is the question input by the user.  
+The output data will be stored in a .csv file called q[x].csv, where x is the question input by the user.  
 And the graph will be output in a file called q[x].pdf, where x is the question input by the user.
 
 
