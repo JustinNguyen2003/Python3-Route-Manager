@@ -17,7 +17,7 @@ The type of graph can be input as "pie" or "bar"
   
   
 **OUTPUT:**  
-The output data will be stored in a .csv file called q<x>.csv, where x is the question input by the user.
+The output data will be stored in a .csv file called q<x>.csv, where x is the question input by the user.  
 And the graph will be output in a file called q<x>.pdf, where x is the question input by the user.
 
 
